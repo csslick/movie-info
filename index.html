@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>영화정보.html</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- 제이쿼리 라이브러리 추가(CDN) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- 사용자 자바스크립트 -->
+  <script src="js/man.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>영화정보</h1>
+    </header>
+    <section id="info">
+      <label for="movie">영화 선택</label>
+      <select name="movie" id="movie" onclick="movie_info();">
+        <option value="">토이스토리4</option>
+        <option value="">알라딘</option>
+        <option value="">존윅3</option>
+        <option value="">스파이더맨:파 프럼 홈</option>
+      </select>
+      <h2>영화 제목</h2>
+      <p class="year"><b>개봉년도: <span></span></b></p>
+      <p class="category"><b>장르:</b> <span></span></p>
+      <p class="director"><b>감독:</b> <span></span></p>
+      <a class="reserve" href="#">예매하기</a>
+    </section>
+
+    <section id="poster">
+      <img src="http://placehold.it/200x290" alt="poster">
+    </section>
+  </div><!-- end container -->
+
+</body>
+
+</html>

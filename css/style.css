@@ -1,0 +1,56 @@
+::selection {
+  background: red;
+  color: white;
+}
+
+body {
+  margin: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+body{ background: #666;}
+p{ 
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+.container{
+  width: 600px;
+  background: #fff;
+  margin: 0 auto;
+  overflow: hidden;
+}
+header{
+  padding: 20px;
+  background: #fff;
+}
+#info{
+  width: 360px;
+  float: left;
+  padding: 20px;
+  padding-top: 0;
+}
+#poster{
+  width: 240px;
+  float: right;
+  padding: 20px;
+  padding-top: 0;
+}
+#poster img { width: 100%;}
+#info h2{ 
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+#info #movie{
+  padding: 5px;
+  font-size: 0.8em;
+}
